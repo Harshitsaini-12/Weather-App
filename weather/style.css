@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);; 
+    color:white;
+}
+
+#app-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#temp{
+    text-align: center;
+}
+
+#temp #temp-value{
+    color: white;
+    font-size: 12rem;
+}
+
+#temp #temp-unit{
+    color: white;
+    font-size: 4rem;
+}
+#temp_icon{
+    margin: 1rem;
+    width: 64%;
+    padding: 23px;
+    height: auto;
+}
+
+#location{
+    font-family: sans-serif;
+    color: white;
+    font-size: 2.5rem;
+}
+
+#climate{
+    color: white;
+    font-size: 2rem;
+}
